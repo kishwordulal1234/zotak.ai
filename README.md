@@ -1,0 +1,2 @@
+# zotak.ai
+ai hacker 
