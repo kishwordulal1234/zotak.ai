@@ -316,7 +316,7 @@ Zotak is released under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ by Zotak Development Team<br>
+  Made with ❤️ by unknone hart m<br>
   <a href="https://github.com/username/zotak">GitHub</a> •
   <a href="https://zotak-cli.com">Website</a> •
   <a href="mailto:contact@zotak-cli.com">Contact</a>
