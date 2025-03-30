@@ -1,7 +1,7 @@
 # ZOTAK - AI-Powered Pentesting CLI
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/username/zotak/main/images/logo.png" alt="Zotak Logo" width="400"/>
+  <img src="logo.png" alt="Zotak Logo" width="400"/>
 </p>
 
 <p align="center">
