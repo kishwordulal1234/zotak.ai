@@ -1,55 +1,164 @@
 # ZOTAK - AI-Powered Pentesting CLI
 
-<p align="center">
+<div align="center">
   <img src="logo.png" alt="Zotak Logo" width="400"/>
-</p>
+  
+  <h3>🔐 Next-Generation Security Testing 🔐</h3>
+  
+  <p align="center">
+    <em>Revolutionize penetration testing with AI-driven command generation and analysis<br>
+    Break the system through security, not the device</em>
+  </p>
 
-<p align="center">
-  <em>Revolutionize penetration testing with AI-driven command generation and analysis : break the system not the  security not the device </em>
-</p>
+  <p align="center">
+    <a href="#-features">🚀 Features</a> •
+    <a href="#-installation">⚡ Installation</a> •
+    <a href="#-requirements">📋 Requirements</a> •
+    <a href="#-quick-start">🎯 Quick Start</a> •
+    <a href="#-usage">📖 Usage</a> •
+    <a href="#-examples">💡 Examples</a> •
+    <a href="#-ethical-use">🛡️ Ethical Use</a> •
+    <a href="#-license">📜 License</a> •
+    <a href="#-version-history">📅 Version History</a>
+  </p>
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#requirements">Requirements</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#ethical-use">Ethical Use</a> •
-  <a href="#license">License</a> •
-  <a href="#version-history">Version History</a>
-</p>
+  <hr>
 
----
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/AI-Powered-purple.svg" alt="AI Powered">
+    <img src="https://img.shields.io/badge/Platform-Linux-orange.svg" alt="Platform">
+  </p>
+</div>
 
-## Overview
+## 🌟 Overview
 
-Zotak is an advanced AI-powered CLI tool designed to streamline and enhance penetration testing workflows. It leverages state-of-the-art large language models to interpret natural language commands, generate appropriate pentesting commands, analyze results, and suggest exploitation paths - all from a sleek, interactive terminal interface.
+<div align="center">
+  <table>
+    <tr>
+      <td width="70%">
+        <p><b>Zotak</b> is a revolutionary AI-powered CLI tool that transforms penetration testing workflows. By leveraging state-of-the-art large language models, it brings advanced security testing capabilities to both experts and newcomers.</p>
+      </td>
+      <td align="center" width="30%">
+        <img src="https://img.shields.io/badge/AI-Models-blueviolet" alt="AI Models"><br>
+        <small>DeepSeek & Gemini</small>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Unlike traditional pentesting frameworks that require memorization of specific commands and syntax, Zotak accepts natural language instructions and translates them into powerful Kali Linux commands, making advanced security testing accessible to both experts and newcomers.
+### 🎯 Key Benefits
 
-## Features
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h3>🤖</h3>
+      <b>Natural Language</b>
+      <p>No more memorizing complex commands</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>⚡</h3>
+      <b>Intelligent Analysis</b>
+      <p>Automated vulnerability detection</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🛡️</h3>
+      <b>Smart Protection</b>
+      <p>Built-in safety mechanisms</p>
+    </td>
+  </tr>
+</table>
 
-- **Natural Language Processing**: Input commands in plain English and let the AI figure out the technical details
-- **Multi-AI Provider Support**: Choose between OpenRouter (DeepSeek) and Google Gemini AI models
-- **Automatic Tool Installation**: Detects and installs missing tools automatically
-- **Enhanced Reconnaissance**: Comprehensive recon with multiple fallback mechanisms
-- **Intelligent Analysis**: Automatically identifies interesting findings in scan results
-- **Exploitation Suggestions**: Receives AI-generated exploitation suggestions based on scan results
-- **Result Management**: Organized storage and viewing of scan results
-- **Custom Prompt Styles**: Multiple interactive CLI styles to choose from
-- **Real-time Target Analysis**: Receive immediate intelligence about target domains
-- **Failsafe Mechanisms**: Timeout handling, graceful interruptions, and confirmation for risky commands
-- **System Information Display**: Built-in system info display with neofetch integration
-- **Persistent Configuration**: Customizable settings stored in a configuration file
-- **Advanced Error Handling**: Automatic detection and fixing of common errors
-- **Cross-Platform Support**: Compatible with various Linux distributions and package managers
-- **Interactive Command History**: Browse and reuse previous commands
-- **Robust Security Measures**: Safe mode to prevent potentially destructive commands
+## ✨ Features
 
-## Installation
+<div class="feature-grid">
+  <table align="center">
+    <tr>
+      <td align="center" width="33%">
+        <h4>🗣️ Natural Language Processing</h4>
+        <p>Input commands in plain English and let AI handle the technical details</p>
+      </td>
+      <td align="center" width="33%">
+        <h4>🧠 Multi-AI Support</h4>
+        <p>Choose between OpenRouter (DeepSeek) and Google Gemini AI models</p>
+      </td>
+      <td align="center" width="33%">
+        <h4>🔄 Auto-Installation</h4>
+        <p>Automatic detection and installation of required tools</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <h4>🔍 Enhanced Recon</h4>
+        <p>Comprehensive reconnaissance with fallback mechanisms</p>
+      </td>
+      <td align="center">
+        <h4>📊 Smart Analysis</h4>
+        <p>Automatic identification of security findings</p>
+      </td>
+      <td align="center">
+        <h4>💡 Exploitation Guidance</h4>
+        <p>AI-generated exploitation suggestions</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <h4>📁 Result Management</h4>
+        <p>Organized storage and viewing of scan results</p>
+      </td>
+      <td align="center">
+        <h4>🎨 Custom Styling</h4>
+        <p>Multiple interactive CLI styles</p>
+      </td>
+      <td align="center">
+        <h4>🎯 Real-time Analysis</h4>
+        <p>Immediate target intelligence</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-```bash
+### 🛡️ Advanced Security Features
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h4>⚡ System Integration</h4>
+        <ul align="left">
+          <li>Built-in neofetch display</li>
+          <li>Cross-platform compatibility</li>
+          <li>Persistent configurations</li>
+        </ul>
+      </td>
+      <td align="center">
+        <h4>🔒 Safety Measures</h4>
+        <ul align="left">
+          <li>Automatic error detection</li>
+          <li>Safe mode operations</li>
+          <li>Command validation</li>
+        </ul>
+      </td>
+      <td align="center">
+        <h4>📈 Performance</h4>
+        <ul align="left">
+          <li>Interactive history</li>
+          <li>Command suggestions</li>
+          <li>Resource optimization</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## ⚡ Installation
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <pre>
 # Clone the repository
 git clone https://github.com/username/zotak.git
 cd zotak
@@ -61,8 +170,11 @@ pip install -r requirements.txt
 chmod +x zotak-v5.py
 
 # Run the tool
-./zotak-v5.py
-```
+./zotak-v5.py</pre>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Requirements
 
