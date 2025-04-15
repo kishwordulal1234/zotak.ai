@@ -229,91 +229,271 @@ show scan
 
 ## Usage
 
-### Basic Commands
+## 🎮 Basic Commands
 
-| Command | Description |
-|---------|-------------|
-| `set target [hostname/IP]` | Set target for testing |
-| `recon` | Run comprehensive reconnaissance |
-| `fast recon` | Run quick reconnaissance |
-| `improve it` | Generate improved version of the last command |
-| `show scan` | List recent scan results |
-| `show scan [number/name]` | View specific scan result |
-| `change prompt` | Cycle through different prompt styles |
-| `use openrouter` | Switch to OpenRouter API |
-| `use gemini` | Switch to Google Gemini API (if available) |
-| `show provider` | Show current AI provider |
-| `stop` | Stop all running scans |
-| `exit` | Exit the application |
+<div align="center">
+  <h3>Essential Command Reference</h3>
+  
+  <table align="center">
+    <tr>
+      <th align="center">Category</th>
+      <th align="center">Command</th>
+      <th align="center">Description</th>
+      <th align="center">Example</th>
+    </tr>
+    
+    <!-- Target Management -->
+    <tr>
+      <td rowspan="1" align="center"><h4>🎯<br>Targeting</h4></td>
+      <td><code>set target [hostname/IP]</code></td>
+      <td>Set the target for testing operations</td>
+      <td><code>set target example.com</code></td>
+    </tr>
+    
+    <!-- Scanning Operations -->
+    <tr>
+      <td rowspan="3" align="center"><h4>🔍<br>Scanning</h4></td>
+      <td><code>recon</code></td>
+      <td>Run comprehensive reconnaissance</td>
+      <td><code>recon</code></td>
+    </tr>
+    <tr>
+      <td><code>fast recon</code></td>
+      <td>Quick reconnaissance scan</td>
+      <td><code>fast recon</code></td>
+    </tr>
+    <tr>
+      <td><code>improve it</code></td>
+      <td>Enhance the previous command</td>
+      <td><code>improve it</code></td>
+    </tr>
+    
+    <!-- Results Management -->
+    <tr>
+      <td rowspan="2" align="center"><h4>📊<br>Results</h4></td>
+      <td><code>show scan</code></td>
+      <td>Display all recent scan results</td>
+      <td><code>show scan</code></td>
+    </tr>
+    <tr>
+      <td><code>show scan [number/name]</code></td>
+      <td>View specific scan result</td>
+      <td><code>show scan nmap_1</code></td>
+    </tr>
+    
+    <!-- AI Provider Management -->
+    <tr>
+      <td rowspan="3" align="center"><h4>🤖<br>AI Control</h4></td>
+      <td><code>use openrouter</code></td>
+      <td>Switch to OpenRouter (DeepSeek) AI</td>
+      <td><code>use openrouter</code></td>
+    </tr>
+    <tr>
+      <td><code>use gemini</code></td>
+      <td>Switch to Google Gemini AI</td>
+      <td><code>use gemini</code></td>
+    </tr>
+    <tr>
+      <td><code>show provider</code></td>
+      <td>Display current AI provider</td>
+      <td><code>show provider</code></td>
+    </tr>
+    
+    <!-- System Controls -->
+    <tr>
+      <td rowspan="3" align="center"><h4>⚙️<br>System</h4></td>
+      <td><code>change prompt</code></td>
+      <td>Cycle through CLI prompt styles</td>
+      <td><code>change prompt</code></td>
+    </tr>
+    <tr>
+      <td><code>stop</code></td>
+      <td>Halt all running scans</td>
+      <td><code>stop</code></td>
+    </tr>
+    <tr>
+      <td><code>exit</code></td>
+      <td>Close Zotak application</td>
+      <td><code>exit</code></td>
+    </tr>
+  </table>
+</div>
 
-### Natural Language Commands
+### 🔥 Command Tips
 
-Simply type what you want to do in natural language, and the AI will generate and execute the appropriate commands:
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h4>⚡ Quick Access</h4>
+        <p>Use <code>↑</code> and <code>↓</code> arrows to navigate command history</p>
+      </td>
+      <td align="center" width="33%">
+        <h4>💡 Smart Complete</h4>
+        <p>Press <code>Tab</code> for command auto-completion</p>
+      </td>
+      <td align="center" width="33%">
+        <h4>🛟 Help</h4>
+        <p>Add <code>--help</code> to any command for details</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-```bash
-# Examples of natural language commands
-scan target for open ports
-check for sql injection vulnerabilities
-search for wordpress vulnerabilities
-perform directory brute force with common wordlist
-run nikto scan on the target
-generate reverse shell payload for windows 
-```
+### 🎨 Prompt Styles
 
-### Setting Targets
+<div align="center">
+  <table>
+    <tr>
+      <td><code>[H4X0R] ></code></td>
+      <td><code>[ZOTAK] ╞═►</code></td>
+      <td><code>What's your next move? 😈</code></td>
+      <td><code>Ready to hack? 🔓</code></td>
+      <td><code>[Z] Command:</code></td>
+    </tr>
+  </table>
+  <p><i>Use <code>change prompt</code> to cycle through these styles</i></p>
+</div>
 
-```bash
-# Set a target domain
-set target example.com
+### 🛠️ Special Commands
 
-# Set a target with URL (http:// will be stripped)
-set target https://example.com/
+<div align="center">
+  <h3>Helper Commands & Shortcuts</h3>
+  
+  <table align="center">
+    <tr>
+      <th align="center">Category</th>
+      <th align="center">Command</th>
+      <th align="center">Description</th>
+    </tr>
+    
+    <!-- Program Control -->
+    <tr>
+      <td rowspan="4" align="center"><h4>🖥️<br>Program<br>Control</h4></td>
+      <td><code>!help</code></td>
+      <td>Display help information</td>
+    </tr>
+    <tr>
+      <td><code>!exit</code> or <code>!quit</code></td>
+      <td>Exit the program</td>
+    </tr>
+    <tr>
+      <td><code>!clear</code></td>
+      <td>Clear the terminal screen</td>
+    </tr>
+    <tr>
+      <td><code>!restart</code></td>
+      <td>Restart session with fresh context</td>
+    </tr>
+    
+    <!-- Configuration -->
+    <tr>
+      <td rowspan="6" align="center"><h4>⚙️<br>Config<br>Settings</h4></td>
+      <td><code>!config</code></td>
+      <td>Show current configuration</td>
+    </tr>
+    <tr>
+      <td><code>!config &lt;key&gt; &lt;value&gt;</code></td>
+      <td>Set a specific configuration value</td>
+    </tr>
+    <tr>
+      <td><code>!autoexec on|off</code></td>
+      <td>Toggle automatic command execution</td>
+    </tr>
+    <tr>
+      <td><code>!autofix on|off</code></td>
+      <td>Toggle automatic error fixing</td>
+    </tr>
+    <tr>
+      <td><code>!autoinstall on|off</code></td>
+      <td>Toggle automatic tool installation</td>
+    </tr>
+    <tr>
+      <td><code>!safe on|off</code></td>
+      <td>Toggle safety mode for destructive commands</td>
+    </tr>
+    
+    <!-- AI Models -->
+    <tr>
+      <td rowspan="4" align="center"><h4>🧠<br>AI<br>Models</h4></td>
+      <td><code>!model openrouter</code></td>
+      <td>Use only OpenRouter/DeepSeek AI</td>
+    </tr>
+    <tr>
+      <td><code>!model gemini</code></td>
+      <td>Use only Google Gemini AI</td>
+    </tr>
+    <tr>
+      <td><code>!model dual</code></td>
+      <td>Use both AI models together</td>
+    </tr>
+    <tr>
+      <td><code>!model select</code> or <code>!select</code></td>
+      <td>Show AI provider selection menu</td>
+    </tr>
+    
+    <!-- Tools & History -->
+    <tr>
+      <td rowspan="5" align="center"><h4>🔧<br>Tools &<br>History</h4></td>
+      <td><code>!history</code></td>
+      <td>Show command execution history</td>
+    </tr>
+    <tr>
+      <td><code>!clear history</code></td>
+      <td>Clear conversation history</td>
+    </tr>
+    <tr>
+      <td><code>!tools list</code></td>
+      <td>List all available security tools</td>
+    </tr>
+    <tr>
+      <td><code>!tools install</code></td>
+      <td>Check and install missing security tools</td>
+    </tr>
+    <tr>
+      <td><code>!theme dark|light</code></td>
+      <td>Set UI theme preference</td>
+    </tr>
+    
+    <!-- Shell Execution -->
+    <tr>
+      <td rowspan="2" align="center"><h4>🐚<br>Shell<br>Commands</h4></td>
+      <td><code>!</code> + any command</td>
+      <td>Run shell commands directly</td>
+    </tr>
+    <tr>
+      <td><code>!!</code></td>
+      <td>Execute last suggested command automatically</td>
+    </tr>
+  </table>
+</div>
 
-# Set an IP address
-set target 192.168.1.1
-```
+### 💡 Usage Tips
 
-### Running Scans
-
-```bash
-# Comprehensive reconnaissance (nmap, whatweb, directory enumeration)
-recon
-
-# Quick scan
-fast recon
-
-# Custom scan with natural language
-scan for SQL injection in the login form
-```
-
-### Viewing Results
-
-```bash
-# List all recent scan results
-show scan
-
-# View a specific scan by number
-show scan 1
-
-# View a specific scan by filename pattern
-show scan nmap
-
-# View a specific file directly
-show scan /root/zotak_results/nmap_example_com_20250329.txt
-```
-
-### Using Different AI Providers
-
-```bash
-# Use DeepSeek model via OpenRouter
-use openrouter
-
-# Use Google's Gemini model (if available)
-use gemini
-
-# Check which provider is currently active
-show provider
-```
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h4>🔍 For Better Results</h4>
+        <ul align="left">
+          <li>Be specific about what you're looking for</li>
+          <li>Mention the target explicitly when relevant</li>
+          <li>Use <code>improve it</code> to enhance results</li>
+          <li>Try both AI models for different perspectives</li>
+        </ul>
+      </td>
+      <td width="50%" align="center">
+        <h4>⚠️ Troubleshooting</h4>
+        <ul align="left">
+          <li>If AI refers to nonexistent conversations, use <code>!restart</code></li>
+          <li>For tool errors, try <code>!tools install</code></li>
+          <li>Clear history with <code>!clear history</code> for a fresh start</li>
+          <li>Reset to defaults with <code>!reset config</code></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Advanced Features
 
