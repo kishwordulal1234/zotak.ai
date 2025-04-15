@@ -7,7 +7,7 @@
   
   <p align="center">
     <em>Revolutionize penetration testing with AI-driven command generation and analysis<br>
-    Break the system through security, not the device</em>
+    Break the system and security, not the device</em>
   </p>
 
   <p align="center">
@@ -580,7 +580,7 @@ Start with port scanning, web fingerprinting, and directory enumeration.
     </tr>
   </table>
   
-  <p><i>Breaking systems through security, not devices</i></p>
+  <p><i>Breaking systems and security, not devices</i></p>
 </div>
 
 ## Upcoming Features
