@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>Revolutionize penetration testing with AI-driven command generation and analysis : break the system are security not the device </em>
+  <em>Revolutionize penetration testing with AI-driven command generation and analysis : break the system not the  security not the device </em>
 </p>
 
 <p align="center">
